@@ -145,7 +145,7 @@ body::-webkit-scrollbar{
 
   .box2{
     width: fit-content;
-    background: rgba(0, 0, 0, 0.186);
+    background: rgba(0, 0, 0, 0.382);
     padding: 10px;
     text-align: center;
     margin-left: 50px;
@@ -159,6 +159,31 @@ body::-webkit-scrollbar{
     overflow: -moz-hidden-unscrollable;
     max-height: 600px;
   }
+  .bangers{
+    width: fit-content;
+    background: rgba(0, 0, 0, 0.186);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    opacity: 10%;
+    float: left;
+    border-radius: 40px;
+  }
+  .bangers h1{
+    font-size: 30px;
+    opacity: 25%;
+  }
+
+
+
+
+
+  ::-webkit-scrollbar{
+    display: none;
+  }
+
+
 
   .tinkgames{
     width: 300px;
