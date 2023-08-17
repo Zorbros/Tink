@@ -335,10 +335,6 @@ body::-webkit-scrollbar{
     display: flex;
     justify-content: center;
   }
-  .timebombcontainer{
-    display: flex;
-    float: right;
-  }
 
   .tseku{
     width: 200px;
@@ -526,7 +522,11 @@ body::-webkit-scrollbar{
   .timebomb li a:hover{
     color: #8a8a8a;
   }
+
   .troycontainer{
+    display: flex;
+  }
+  .mimicontaier{
     display: flex;
   }
 
@@ -586,7 +586,6 @@ body::-webkit-scrollbar{
     width: 200px;
     height: fit-content;
     background: rgba(0, 0, 0, 0.4);
-    padding: 20px;
     text-align: center;
     margin-top: 3px;
     margin-left: 1px;
@@ -634,5 +633,63 @@ body::-webkit-scrollbar{
     transition: all ease-in-out 250ms;
   }
   .mimi li a:hover{
+    color: #8a8a8a;
+  }
+
+  .tlg{
+    width: 200px;
+    height: fit-content;
+    background: rgba(245, 7, 241, 0.398);
+    padding: 10px;
+    text-align: center;
+    margin-top: 2px;
+    margin-left: 1px;
+    margin-right: 5px;
+    padding: 5px;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+    border-radius: 40px;
+
+  }
+
+  .tlg-img{
+    border-radius: 90%;
+    width: 100px;
+    height: 100px;
+  }
+
+  .tlg h1{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 75;
+  }
+  .tlg h5{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    margin-top: 1px;
+  }
+  .tlg p{
+    text-align: justify;
+    padding-left: 20px;
+  }
+
+  .tlg ul{
+    color: white;
+      margin: 0;
+      padding: 0;
+  }
+  .tlg li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .tlg li a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    transition: all ease-in-out 250ms;
+  }
+  .tlg li a:hover{
     color: #8a8a8a;
   }
