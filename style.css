@@ -23,6 +23,15 @@ body::-webkit-scrollbar{
   display: flex;
   border-style: groove;
 }
+
+.WUAIO :hover{
+  height: 530px;
+  transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+}
+
 .everythingisalot{
   background: rgba(119, 117, 117, 0.402);
   height: fit-content;
@@ -34,6 +43,14 @@ body::-webkit-scrollbar{
   border-radius: 40px;
   border-style: inset;
   display: flex;
+}
+
+.everythingisalot :hover{
+  height: 800px;
+  transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
 }
 .IGOR{
   background: rgba(180, 132, 132, 0.636);
@@ -57,6 +74,14 @@ body::-webkit-scrollbar{
   border-style: ridge;
   margin-top: 1%;
   float: right;
+}
+
+.pebblebrain :hover{
+  height: 560px;
+  transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
 }
 .areyoualright{
   background: rgba(47, 7, 7, 0.454);
@@ -89,13 +114,25 @@ body::-webkit-scrollbar{
 .selfish{
   background: rgba(55, 56, 62, 0.517);
   height: fit-content;
-  width: 400px;
   padding: 10px;
   border-radius: 40px;
   border-style: ridge;
   margin-top: 5%;
   margin-right: 30px;
+  margin-left: 500px;
   float: right;
+}
+.selfish :hover{
+  width: 600px;
+  height: 600px;
+  padding: 10px;
+  border-radius: 40px;
+  border-style: 400px;
+  background: 400px;
+  transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
 }
 
     .tinkcontainer{
